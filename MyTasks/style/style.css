@@ -1,0 +1,112 @@
+.container{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+}
+
+.btn_add {
+    float:left;
+    text-align:center;
+    padding:0 20px;
+}
+
+/* TABLE */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.td_actions{
+    width: 20%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* DATE FILTER */
+.filter{
+    float:right;
+    margin-right: 0%;
+}
+
+.filter_from{
+    float:left;
+    padding:0 10px;
+}
+
+.filter_to{
+    float:left;
+}
+
+.filter_btn{
+    float:right;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ADD AND EDIT FORMS */
+.container_add{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 50%;
+    padding-top: 5%;
+}
+
+@media only screen and (max-width: 850px) {
+    .container_add {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-top: 0%;
+    }
+}
+
+.column {
+    float: left;
+    width: 40%;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .column {
+        width: 100%;
+    }
+}
+
+textarea {
+    resize: vertical;
+}
+
+.input {
+    width: 150px;
+}
+
+/* VIEW FORM */
+.container_v{
+    width: 20%;
+    margin-left: 42.5%;
+    margin-right: 50%;
+    padding-top: 5%;
+}
+
+@media only screen and (max-width: 850px) {
+    .container_v {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-top: 0%;
+    }
+}
